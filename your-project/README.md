@@ -1,6 +1,6 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Title of Your Project
+# Guess the number
 *Alex Jurado*
 
 *[Data Analytics Jan 2020, Barcelona & 15 Jan 2020]*
@@ -16,13 +16,13 @@
 A game of guess the number with two options, one where the player can play a normal game of higher and lower and another one where the player can make the computer guess.
 
 ## Rules
-Pick whether you want to play the game or you want to make the conmuper play. 
+Pick whether you want to play the game or you want to make the computer play. 
 Set a range for yours or the computers game. 
-If you have picked to play yourself thats it, have fun the computer will tell you how many tries you have taken.
+If you have picked to play yourself, thats it, have fun the computer will tell you how many tries you have taken.
 If you picked the computer to play, sit back and watch the computer take guesses.
 
 ## Workflow
-Started by creating the players game once it was working decided to try to make the computer playing too by using a binary search algorithm. After having both games operational, I decided to try slittign it into as many functions to keep it as "pure" as possible.
+Started by creating the players game once it was working decided to try to make the computer playing too by using a binary search algorithm. After having both games operational, I decided to try dive the code  into as many functions to keep it as "pure" as possible.
 
 ## Organization
 Started with using Trello and set some boundaries for my game, due to the rather simple nature of the game it was pretty free flowing afterwards. 
@@ -32,6 +32,6 @@ In the main folder and .py folder is where the bulk of the code is stored and th
 
 ## Links
 
-[Repository](https://github.com/)  
-[Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Repository](https://github.com/Stereo-Alex/Project-Week-1-Build-Your-Own-Game)  
+[Slides](https://slides.com/alexjurado/deck/live?context=editing)  
+[Trello](https://trello.com/b/kKeIDrYp/game)  

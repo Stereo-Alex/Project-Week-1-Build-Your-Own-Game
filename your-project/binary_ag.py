@@ -1,5 +1,5 @@
 def cpu_function_range():
-    low = int(input("Set the lower limit of the game, this gives the computer a chance to narrow it down"))
+    low = int(input("Set the lower limit of the game, this allows the computer to narrow it down"))
     high = int(input("Set the higher limit of the game"))
     return low, high
 
@@ -12,7 +12,7 @@ def cpu_game_choice(low, high):
             continue
 
         else:
-            print("Number picked, the computer will now try to guess", num)
+            print("Number picked, the computer will now try to guess: ", num)
             return num
 
 
@@ -35,24 +35,19 @@ def print_guesses(guesses):
     print(f"The computer guessed {guesses[-1]} and it was correct!")
 
 
-
-
-
-
 def cpu_function_range_2(bound):
     return int(input(f"Set the {bound} limit of the game"))
-
 
 
 def player_game(low, high):
     import random
     random_number = random.randrange(low, high)
-    print(random_number)
+    #print(random_number)
     try_counter = 0
-    print(f"the game has started, your scoreboard is at {try_counter}")
+    print(f"The game has started, your scoreboard is at {try_counter}")
     player_guess = 0
     while player_guess != random_number:
-        player_guess = int(input("Please enter your guess: "))
+        player_guess = int(input("Please input your guess: "))
         if player_guess < random_number:
             print("Your guess is too low")
             try_counter = try_counter + 1
@@ -60,9 +55,9 @@ def player_game(low, high):
             print("Your guess is too high")
             try_counter = try_counter + 1
     else:
-        print(f"you guessed right! The secret number was:  {random_number}")
+        print(f"You guessed right! The secret number was:  {random_number}")
 
-    final_result = print(f"you guessed the number in {try_counter}, turns")
+    final_result = print(f"You have guessed the number in {try_counter}, turns")
 
     return final_result
 
@@ -70,9 +65,9 @@ def player_game(low, high):
 
 
 def main():
-    game_choice = input("Wellcome to the game,"
+    game_choice = input("Wellcome to the game."
                         "\n"
-                        "do you want to play yourself or make the computer play?"
+                        "Do you want to play yourself or make the computer play?"
                         "\n"
                         "If you want to play yourself please input 1,"
                         "\n"
