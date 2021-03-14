@@ -80,3 +80,6 @@ def main():
         low, high = cpu_function_range()
         guesses = computer_guesses(cpu_game_choice(low, high), low, high)
         return print_guesses(guesses)
+
+main()
+        

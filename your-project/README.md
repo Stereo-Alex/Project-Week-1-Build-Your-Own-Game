@@ -14,6 +14,7 @@
 
 ## Project Description
 A game of guess the number with two options, one where the player can play a normal game of higher and lower and another one where the player can make the computer guess.
+To play call the binary_ag.py after cloning the repo.
 
 ## Rules
 Pick whether you want to play the game or you want to make the computer play. 
